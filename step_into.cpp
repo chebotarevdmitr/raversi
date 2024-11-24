@@ -1,10 +1,10 @@
-#include<iostream>
+#include <iostream>
 
-void printValue(int nValue) {
-   std::cout << nValue;
-}
-
- int main(int argc, const char** argv) {
-    printValue(5);
-    return 0;
+int main(int argc, const char **argv)
+{
+   int x = 0;
+   std::cout << x << " ";
+   x = +1;
+   std::cout << x << " ";
+   return 0;
 }
